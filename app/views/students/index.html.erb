@@ -1,0 +1,7 @@
+<% @data.each do |datum| %>
+  <h2>Year: <%= datum['year'] %></h2>
+  <p>Total All Students: <%= datum['all_students_total'] %></p>
+  <p>Total Full Time Students: <%= datum['all_students_full_time'] %></p>
+  <p>Total Part Time Students: <%= datum['all_students_part_time'] %></p>
+  <hr>
+<% end %>
